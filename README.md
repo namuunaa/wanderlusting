@@ -1,50 +1,16 @@
-# Basic rails 5 application with devise
+# Wanderlusting
 
-This application has responsive mobile view and navigation, twitter bootstrap, devise, rails 5.0.0 and slim setup.
+Caught a travel bug and planning your next adventure? Let us know your next location and we'll match you with friends who share same interests and travel paths
 
-important features are:
+<img src="landing.png" alt="first page">
 
-* ruby version 2.3.0
+# Tech Stack
+- RoR
+- Devise
+- Bootstrap
 
-* rails version 5.0.0
+# Get started
 
-### Devise configured modules are:
-
-* user log in
-
-* user registration
-
-* edit user
-
-### Important instructions:
-
-* [strong parameters](https://github.com/plataformatec/devise#strong-parameters): if you add any new user attribute like I have added user first name and last name than you have to add those new attributes to permitted parameters configured inside application controller. 
-
-### What have I missed:
-I have missed several devise features like email confirmation, reset password, forget password, email handling of devise. I will cover them in my next rails 5 basic application, coming soon IA.
-
-### Setup
-
-* always use this command for bundle during development in local machine:
-
-    bundle install --without production
-
-* always use this command for bundle for production environmnet:
-
-    bundle install --without development test
-
-* Database creation and initialization:
-
-    bundle exec rake db:setup
-
-* How to run the test suite:
-
-    no test suite for now
-
-* Services (job queues, cache servers, search engines, etc.)
-
-    nothing yet
-
-* Deployment instructions
-
-    nothing yet
+`bundle install`
+`be rake db:setup`
+`bin/rails server`
